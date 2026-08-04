@@ -1,0 +1,13 @@
+The following fonts are for use in the webpage.
+---Headings---
+"Archivo Black"
+https://fonts.google.com/specimen/Archivo+Black
+---Subheadings---
+"Ubuntu"
+https://fonts.google.com/specimen/Ubuntu
+---Paragraphs---
+"Karla"
+https://fonts.google.com/specimen/Karla
+---Quotes---
+"Playwrite Deutschland Grundschrift"
+https://fonts.google.com/specimen/Playwrite+DE+Grund
