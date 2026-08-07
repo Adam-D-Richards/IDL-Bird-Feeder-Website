@@ -1,3 +1,13 @@
+/*Body Setup.*/
+body {
+    overscroll-behavior:none;
+    margin-top:0px;
+}
+
+html {
+    overscroll-behavior:none;
+}
+
 /* Importing Fonts from google fonts. */
 /* Not going to connect to the full google fonts api incase something is wrong with google fonts. */
 /* Headings */
@@ -21,4 +31,37 @@ p {
 }
 quote_text {
   font-family:"Playwrite DE Grund",Cursive;
+}
+a {
+  font-family: "Karla",Sans-serif;
+}
+
+/*Navbar formating*/
+.navbar_title {
+    display:inline;
+}
+
+.navbar_nav {
+    display: inline;
+    position: absolute;
+    right: 8px;
+}
+
+.navbar_link {
+    color:black;
+    text-decoration:none;
+}
+.navbar_link:hover {
+    color:grey;
+    text-decoration:underline;
+}
+.navbar_divider {
+    margin-top: 2px;
+}
+
+.navbar_parent {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    border-top: 8px solid white;
 }
