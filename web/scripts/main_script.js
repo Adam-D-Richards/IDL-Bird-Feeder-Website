@@ -4,7 +4,9 @@ let navbar_fallback = `<h3 class="navbar_title">Churchland Bird Feeder</h3>
 </nav>
 <hr class="navbar_divider">`;
 
+ //TODO Remove this alert once page is complete.
 alert("This page is in eary development\nFeatures may not work correctly or be broken alltogether.");
+
 fetch('../pages/navbar.html')
     .then(response => {
         if (!response.ok) throw new Error('Failed to load navbar html doc');
