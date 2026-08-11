@@ -203,17 +203,17 @@ a {
     top: 15%;
     transition: transform 0.3s ease;
 }
-    .mainpage_secondary_image:hover {
+.mainpage_secondary_image:hover {
         transform: rotate(7deg);
-    }
+}
 
 /*Green Area Content*/
 
 .green_area_mobile_heading {
     visibility: hidden;
     position:absolute;
-    right: 2.5%;
-    left: 2.5%;
+    right: 5%;
+    left: 5%;
     top: 0.5em;
     font-size: 1.5em;
 }
@@ -242,6 +242,39 @@ a {
     }
 
     .green_area_widescreen_div {
-        position:static;
+        position: static;
+    }
+
+    .green_area {
+        height: 60%;
+    }
+
+    .mainpage_secondary_image {
+        position: absolute;
+        transform: none;
+        width: 100%;
+        height: 14em;
+        border:none;
+        border-top: 4px solid black;
+        border-bottom: 4px solid black;
+        border-radius: 0px;
+        left: 0%;
+        top: 4.6em;
+        object-fit: cover;
+    }
+
+        .mainpage_secondary_image:hover {
+            transform: none;
+        }
+
+    .green_area_widescreen_heading {
+        visibility: hidden;
+    }
+    .green_area_widescreen_text {
+        position:absolute;
+        top:308px;
+        left:5%;
+        right:5%;
+        font-size:2vh;
     }
 }
