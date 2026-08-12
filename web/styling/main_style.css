@@ -236,6 +236,13 @@ a {
     margin-top: 0.6em;
 }
 
+.green_area_link {
+    position: absolute;
+    bottom:30%;
+    left:25%;
+    width:20em;
+}
+
 @media only screen and (max-width: 768px) {
     .green_area_mobile_heading {
         visibility: visible;
@@ -246,7 +253,7 @@ a {
     }
 
     .green_area {
-        height: 60%;
+        height: 65%;
     }
 
     .mainpage_secondary_image {
