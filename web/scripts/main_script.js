@@ -19,3 +19,7 @@ fetch('../pages/navbar.html')
         console.error('Error:', error);
         document.getElementById('navbardocument').innerHTML = navbar_fallback;
     });
+
+let a = 15
+let b = 16
+let c = a + b
