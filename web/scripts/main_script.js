@@ -1,6 +1,6 @@
 let navbar_fallback = `<h3 class="navbar_title">Churchland Bird Feeder</h3>
 <nav class="navbar_nav">
-    <a class="navbar_link" href="/">Home</a> | <a class="navbar_link" href="/about">About</a>
+    <a class="navbar_link" href="../pages/index.html">Home</a> | <a class="navbar_link" href="../pages/about.html">About</a> | <a class="navbar_link" href="../pages/problem.html">Why</a>
 </nav>
 <hr class="navbar_divider">`;
 
@@ -19,7 +19,3 @@ fetch('../pages/navbar.html')
         console.error('Error:', error);
         document.getElementById('navbardocument').innerHTML = navbar_fallback;
     });
-
-let a = 15
-let b = 16
-let c = a + b
