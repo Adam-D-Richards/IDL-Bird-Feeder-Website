@@ -35,6 +35,32 @@
     right: 35%;
 }
 
+.hero_area_link {
+    position: absolute;
+    bottom: 9%;
+    left: 5%;
+    width: 9em;
+    height: 1.8em;
+    background-color: rgb(255 255 255);
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.4em;
+    line-height: 1.8em;
+    text-decoration: none;
+    color: black;
+    border: 3px solid black;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, font-size 0.3s ease, line-height 0.3s ease, height 0.3s ease, width 0.3s ease;
+}
+
+    .hero_area_link:hover {
+        background-color: rgb(235, 235, 235);
+        font-size: 1.3em;
+        line-height: 1.938em;
+        height: 1.938em;
+        width: 9.692em;
+    }
+
 /*Drop sub text if the page is condensed far enough.*/
 @media only screen and (max-width: 1011px) {
     .hero_sub_text {
@@ -62,6 +88,15 @@
         bottom: 0%;
         left: 50%;
         transform: translate(-50%, 0%) scaleX(-1);
+    }
+    .hero_area_link {
+        position: absolute;
+        bottom: 80%;
+        width: 60%;
+        left: 19%;
+    }
+    .hero_area_link:hover {
+        width:90%;
     }
 }
 
@@ -174,7 +209,7 @@
 .green_area_link {
     position: absolute;
     bottom: 20%;
-    left: 20%;
+    left: 2.5%;
     width: 9em;
     height: 1.8em;
     background-color: rgb(255, 235, 205);
