@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(250,250,250);
+}
+
+.section_title {
+    margin: 8px;
+    margin-bottom:0px;
+    margin-top:11px;
+}
+
+.faq_segment {
+    border: 3px solid black;
+    border-radius: 11px;
+    background-color: white;
+    margin: 8px;
+    margin-bottom: 0px;
+    margin-top: 11px;
+}
+
+.faq_segment_title {
+    margin: 11px;
+    margin-bottom: 0px;
+    margin-top: 11px;
+}
+
+.faq_segment_text {
+    margin: 11px;
+    margin-bottom: 11px;
+    margin-top: 7px;
+}
