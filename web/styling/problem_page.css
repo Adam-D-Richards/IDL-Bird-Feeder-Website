@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(255 255 255);
+}
+
+.section_title {
+    margin:0px;
+    padding: 8px;
+    padding-bottom: 11px;
+    padding-top: 11px;
+    background-color: rgb(102, 189, 0);
+    border-bottom-left-radius:11px;
+    border-bottom-right-radius:11px;
+    top:32.667px;
+    position:sticky;
+}
+
+.faq_segment {
+    border: 3px solid white;
+    background-color: white;
+    margin: 0px;
+    margin-bottom: 11px;
+    margin-top: 0px;
+}
+
+.faq_segment_title {
+    margin: 11px;
+    margin-bottom: 0px;
+    margin-top: 11px;
+}
+
+.faq_segment_text {
+    margin: 11px;
+    margin-bottom: 11px;
+    margin-top: 7px;
+}
+
+a {
+    color: rgb(82, 169, 0);
+    text-decoration:none;
+}
+a:hover {
+    color: rgb(42, 129, 0);
+    text-decoration:underline;
+}
